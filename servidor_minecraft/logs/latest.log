@@ -1,111 +1,178 @@
-[13Jul2025 16:12:14.316] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[13Jul2025 16:12:14.320] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[13Jul2025 16:12:14.409] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/servidor1/servidor_minecraft/config/fml.toml is not correct. Correcting
-[13Jul2025 16:12:14.410] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[13Jul2025 16:12:14.412] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[13Jul2025 16:12:14.413] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[13Jul2025 16:12:14.414] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[13Jul2025 16:12:14.435] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Jul2025 16:12:14.488] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Jul2025 16:12:14.742] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 16:12:14.743] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 16:12:14.745] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 16:12:14.746] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Jul2025 16:12:14.838] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13Jul2025 16:12:16.158] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[13Jul2025 16:12:21.913] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[13Jul2025 16:12:21.917] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[13Jul2025 16:12:22.498] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Jul2025 16:12:22.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[13Jul2025 16:12:23.411] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Jul2025 16:12:23.440] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[13Jul2025 16:12:23.440] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[13Jul2025 16:12:25.100] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[13Jul2025 16:12:25.248] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[13Jul2025 16:12:25.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Jul2025 16:12:25.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Jul2025 16:12:25.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Jul2025 16:12:25.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Jul2025 16:12:26.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Jul2025 16:12:26.082] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Jul2025 16:12:26.149] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Jul2025 16:12:26.149] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Jul2025 16:12:26.150] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Jul2025 16:12:26.150] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Jul2025 16:12:26.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[13Jul2025 16:12:26.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Jul2025 16:12:26.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[13Jul2025 16:12:26.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[13Jul2025 16:12:26.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[13Jul2025 16:12:26.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[13Jul2025 16:12:26.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[13Jul2025 16:12:26.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[13Jul2025 16:12:26.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[13Jul2025 16:12:26.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Jul2025 16:12:32.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Jul2025 16:12:33.046] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:33.047] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:33.586] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:34.062] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:35.714] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:35.715] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:35.717] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2025 16:12:36.054] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[13Jul2025 16:12:36.549] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[13Jul2025 16:12:37.036] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[13Jul2025 16:12:37.537] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[13Jul2025 16:12:38.039] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[13Jul2025 16:12:38.541] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[13Jul2025 16:12:39.037] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[13Jul2025 16:12:39.536] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[13Jul2025 16:12:40.036] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[13Jul2025 16:12:40.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[13Jul2025 16:12:41.037] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[13Jul2025 16:12:41.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[13Jul2025 16:12:42.041] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[13Jul2025 16:12:42.542] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[13Jul2025 16:12:43.039] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[13Jul2025 16:12:43.544] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
-[13Jul2025 16:12:44.037] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[13Jul2025 16:12:44.537] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[13Jul2025 16:12:45.037] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[13Jul2025 16:12:45.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
-[13Jul2025 16:12:46.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[13Jul2025 16:12:46.539] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
-[13Jul2025 16:12:47.043] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
-[13Jul2025 16:12:47.543] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[13Jul2025 16:12:48.041] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[13Jul2025 16:12:48.538] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[13Jul2025 16:12:49.037] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
-[13Jul2025 16:12:49.548] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[13Jul2025 16:12:50.057] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[13Jul2025 16:12:50.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[13Jul2025 16:12:51.036] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[13Jul2025 16:12:51.536] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
-[13Jul2025 16:12:52.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[13Jul2025 16:12:52.540] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[13Jul2025 16:12:53.051] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[13Jul2025 16:12:53.557] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
-[13Jul2025 16:12:54.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[13Jul2025 16:12:54.554] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 82%
-[13Jul2025 16:12:55.040] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[13Jul2025 16:12:55.539] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[13Jul2025 16:12:56.050] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[13Jul2025 16:12:56.559] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[13Jul2025 16:12:57.042] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
-[13Jul2025 16:12:57.537] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[13Jul2025 16:12:57.714] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 25180 ms
-[13Jul2025 16:12:57.715] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (31.549s)! For help, type "help"
-[13Jul2025 16:12:57.730] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Jul2025 16:14:57.685] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@439a5e7e[id=<null>,name=AgustinEz2,properties={},legacy=false] (/127.85.175.63:49835) lost connection: Disconnected
-[13Jul2025 16:15:11.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[13Jul2025 16:15:11.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Jul2025 16:15:11.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Jul2025 16:15:11.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Jul2025 16:15:12.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13Jul2025 16:15:14.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13Jul2025 16:15:14.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13Jul2025 16:15:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13Jul2025 16:15:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Jul2025 16:15:14.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Jul2025 16:15:14.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13Jul2025 16:18:56.763] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Jul2025 16:18:56.767] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[13Jul2025 16:18:57.730] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Jul2025 16:18:57.788] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Jul2025 16:18:58.243] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 16:18:58.244] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 16:18:58.245] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 16:18:58.246] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Jul2025 16:18:58.596] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[13Jul2025 16:18:58.597] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[13Jul2025 16:19:02.062] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[13Jul2025 16:19:02.073] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Jul2025 16:19:02.471] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13Jul2025 16:19:02.474] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Jul2025 16:19:02.491] [main/WARN] [mixin/]: Reference map 'createdeco-common-refmap.json' for createdeco-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 16:19:02.493] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 16:19:02.629] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 168 options available, 0 override(s) found
+[13Jul2025 16:19:02.657] [main/WARN] [mixin/]: Reference map 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 16:19:02.768] [main/WARN] [mixin/]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Jul2025 16:19:02.795] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[13Jul2025 16:19:02.909] [main/INFO] [Puzzles Lib/]: Loading 125 mods:
+	- alexsmobs 1.22.8
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- athena 3.1.2
+	- attributefix 21.0.4
+	- badmobs 19.0.2
+	- balm 7.2.2
+	- betteranimationscollection 8.0.0
+	- bettervillage 3.1.0
+	- bobberdetector 0.1.9.1.20.1
+	- bookshelf 20.1.9
+	- bountiful 6.0.3+1.20.1
+	- callablehorses 1.3.0.1
+	- canary 0.3.3
+	- chipped 3.0.4
+	- chunkloaders 1.2.8a
+	- chunksending 1.20.1-2.8
+	- citadel 2.5.4
+	- clientcrafting 1.20.1-1.8
+	- cloth_config 11.1.118
+	- clumps 12.0.0.3
+	- collective 7.40
+	- comforts 6.3.5+1.20.1
+	- connectivity 1.20.1-5.4
+	- constructionwand 1.20.1-2.11
+	- controlling 12.0.2
+	- corpse 1.20.1-1.0.12
+	- cosmeticarmorreworked 1.20.1-v1a
+	- craftingtweaks 18.2.3
+	- create 0.5.1.f
+	- create_central_kitchen 1.3.10
+	- create_confectionery 1.1.0
+	- create_crush_everything 1.0.2
+	- create_dragon_lib 1.3.3
+	- create_enchantment_industry 1.2.8
+	- create_power_loader 1.4.0-mc1.20.1
+	- create_recipes 1.0.0
+	- create_sa 2.0.4.
+	- createchunkloading 1.6.0
+	- createdeco 2.0.1-1.20.1-forge
+	- createliquidfuel 2.1.0-1.20.1
+	- cupboard 1.20.1-2.6
+	- curios 5.7.2+1.20.1
+	- deuf 1.20.1-1.3
+	- dynamiclightsreforged 1.20.1_v1.6.0
+	- effecttooltips 9.0.2
+	- embeddium 0.3.9+mc1.20.1
+	- enchdesc 17.0.14
+	- entityculling 1.6.2
+	- farmersdelight 1.20.1-1.2.4
+	- fastleafdecay 31
+	- ferritecore 6.0.1
+	- flywheel 0.6.10-7
+	- foodeffecttooltips 1.0.0
+	- forge 47.3.7
+	- framedblocks 9.2.1
+	- ftbchunks 2001.2.6
+	- ftblibrary 2001.1.5
+	- ftbquests 2001.3.4
+	- ftbranks 2001.1.3
+	- ftbteams 2001.2.0
+	- ftbxmodcompat 2.1.0
+	- fullstackwatchdog 1.0.1+1.19.2-forge
+	- fusion 1.1.1
+	- gamemenumodoption 2.2.1
+	- gjeb 1.3.0.32
+	- gpumemleakfix 1.20.1-1.8
+	- guardvillagers 1.20.1-1.6.4
+	- immediatelyfast 1.2.10+1.20.4
+	- immersive_paintings 0.6.7+1.20.1
+	- inventorysorter 23.0.1
+	- itemfilters 2001.1.0-build.59
+	- jade 11.7.1
+	- jadeaddons 5.2.2
+	- jei 15.3.0.4
+	- jeresources 1.4.0.247
+	- justenoughprofessions 3.0.1
+	- kambrik 6.1.1+1.20.1
+	- konkrete 1.8.0
+	- kotlinforforge 4.10.0
+	- krypton 0.2.3
+	- leaky 1.20.1-1.7
+	- letmedespawn 1.2.0
+	- libraryferret 4.0.0
+	- lootr 0.7.32.79
+	- mcef 2.1.4-1.20.1
+	- mcwbridges 2.1.1
+	- mcwdoors 1.1.0
+	- mcwfences 1.1.1
+	- mcwtrpdoors 1.1.2
+	- minecraft 1.20.1
+	- mixinextras 0.3.5
+	- mixinsquared 0.1.1
+	- mousetweaks 2.25
+	- naturescompass 1.20.1-1.11.2-forge
+	- neruina 1.3.0
+	- polymorph 0.49.2+1.20.1
+	- puzzlesaccessapi 8.0.7
+	- puzzlesapi 8.1.4
+	- puzzleslib 8.1.17
+	- railways 1.5.3+forge-mc1.20.1
+	- rechiseled 1.1.5c
+	- rechiseledcreate 1.0.2
+	- recipeessentials 1.20.1-3.2
+	- redirector 1.20.1-4.4.0
+	- reeses_sodium_options 1.0.4
+	- resourcefullib 2.1.23
+	- rubidium 0.7.1
+	- searchables 1.0.2
+	- sliceanddice 3.2.0
+	- sophisticatedbackpacks 3.20.3.1029
+	- sophisticatedcore 0.6.9.569
+	- sound_physics_remastered 1.20.1-1.1.2
+	- spectrelib 0.13.15+1.20.1
+	- storagedrawers 12.0.3
+	- strawstatues 8.0.2
+	- structureessentials 1.20.1-3.3
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.17
+	- textrues_embeddium_options 0.1.5+mc1.20.1
+	- torchmaster 20.1.5
+	- villagernames 7.3
+	- waystones 14.1.3
+	- xaerominimap 23.9.7
+	- xaeroworldmap 1.37.8
+[13Jul2025 16:19:02.968] [main/WARN] [com.cupboard.Cupboard/]: Config recipeessentials.json not found, recreating default
+[13Jul2025 16:19:02.970] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
+[13Jul2025 16:19:03.111] [main/WARN] [com.cupboard.Cupboard/]: Config structureessentials.json not found, recreating default
+[13Jul2025 16:19:03.113] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[13Jul2025 16:19:04.041] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/plugins/impl/audiochannel/EntityAudioChannelImpl (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl)
+[13Jul2025 16:19:04.042] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl was not found railways-common.mixins.json:compat.voicechat.EntityAudioChannelImplMixin
+[13Jul2025 16:19:04.044] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/Server (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.Server)
+[13Jul2025 16:19:04.045] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.Server was not found railways-common.mixins.json:compat.voicechat.ServerMixin
+[13Jul2025 16:19:04.047] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/ServerWorldUtils (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.ServerWorldUtils)
+[13Jul2025 16:19:04.048] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.ServerWorldUtils was not found railways-common.mixins.json:compat.voicechat.ServerWorldUtilsMixin
+[13Jul2025 16:19:04.399] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[13Jul2025 16:19:04.400] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[13Jul2025 16:19:05.097] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
+[13Jul2025 16:19:05.098] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
+[13Jul2025 16:19:05.126] [main/WARN] [mixin/]: Error loading class: earth/terrarium/botarium/forge/BotariumForge (java.lang.ClassNotFoundException: earth.terrarium.botarium.forge.BotariumForge)
+[13Jul2025 16:19:05.127] [main/WARN] [mixin/]: @Mixin target earth.terrarium.botarium.forge.BotariumForge was not found create_central_kitchen.mixins.json:common.botarium.BotariumForgeMixin
+[13Jul2025 16:19:05.129] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/integration/MoreRedIntegration (java.lang.ClassNotFoundException: dan200.computercraft.shared.integration.MoreRedIntegration)
+[13Jul2025 16:19:05.130] [main/WARN] [mixin/]: @Mixin target dan200.computercraft.shared.integration.MoreRedIntegration was not found create_central_kitchen.mixins.json:common.computercraft.MoreRedIntegrationMixin
+[13Jul2025 16:19:05.205] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
+[13Jul2025 16:19:05.206] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin
+[13Jul2025 16:19:05.210] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[13Jul2025 16:19:05.211] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityAccessor
+[13Jul2025 16:19:05.213] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[13Jul2025 16:19:05.214] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin
+[13Jul2025 16:19:05.219] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[13Jul2025 16:19:05.219] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
+[13Jul2025 16:19:05.419] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[13Jul2025 16:19:07.181] [main/WARN] [mixin/]: @Redirect conflict. Skipping redirector.mixins.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by canary.mixins.json:alloc.enum_values.piston_block.PistonBaseBlockMixin->@Redirect::removeAllocation()[Lnet/minecraft/core/Direction; with priority 1000
+[13Jul2025 16:19:07.181] [main/WARN] [mixin/]: @Redirect conflict. Skipping redirector.mixins.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by canary.mixins.json:alloc.enum_values.piston_block.PistonBaseBlockMixin->@Redirect::removeAllocation()[Lnet/minecraft/core/Direction; with priority 1000
+[13Jul2025 16:19:07.214] [main/WARN] [mixin/]: @Redirect conflict. Skipping redirector.mixins.json:net.minecraft.world.level.block.RedStoneWireBlockMixin->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin->@Redirect::removeAllocation1()[Lnet/minecraft/core/Direction; with priority 1000
+[13Jul2025 16:19:07.214] [main/WARN] [mixin/]: @Redirect conflict. Skipping redirector.mixins.json:net.minecraft.world.level.block.RedStoneWireBlockMixin->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by canary.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin->@Redirect::removeAllocation2()[Lnet/minecraft/core/Direction; with priority 1000
+[13Jul2025 16:19:09.662] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
